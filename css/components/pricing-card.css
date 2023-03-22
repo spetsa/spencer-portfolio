@@ -1,0 +1,83 @@
+.pricing-card {
+  overflow: hidden;
+  background: white;
+  /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
+  height: auto;
+  min-width: 280px;
+  max-width: 280px;
+  border-radius: 5px;
+  margin: 30px;
+  margin-bottom: 20px;
+}
+
+.pricing-card > img {
+  height: 250px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.pricing-card h2 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.pricing-card-title {
+  font-size: 13px;
+  opacity: .7;
+  margin: 0;
+}
+
+#pricing-card-description {
+  font-size: 13px;
+  opacity: 1;
+}
+
+
+.card-trip .card-trip-infos {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: relative;
+}
+
+.card-trip-infos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+
+@media screen and (max-width: 480px) {
+  .card-trip {
+    overflow: hidden;
+    background: white;
+    /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
+    min-width: 380px;
+    max-width: 380px;
+  }
+
+  .card-trip > img {
+    height: 338px;
+  }
+
+  .card-trip h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 0;
+  }
+  
+  .card-trip-title {
+    font-size: 24px;
+    opacity: .7;
+    margin: 0;
+  }
+
+  #card-trip-description {
+    font-size: 20px;
+  }
+
+  
+}

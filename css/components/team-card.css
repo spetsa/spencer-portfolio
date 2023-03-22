@@ -1,0 +1,80 @@
+.card-trip {
+  overflow: hidden;
+  background: white;
+  /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
+  height: auto;
+  min-width: 350px;
+  max-width: 350px;
+  border-radius: 5px;
+  margin: 30px;
+  margin-bottom: 20px;
+}
+
+.card-trip > img {
+  height: 450px;
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-trip h2 {
+  font-size: 17px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-trip-title {
+  font-size: 13px;
+  opacity: .7;
+  margin-top: 4px;
+}
+
+#card-trip-description {
+  font-size: 13px;
+  opacity: 1;
+}
+
+
+.card-trip .card-trip-infos {
+  padding: 16px;
+}
+
+.card-trip-infos .card-trip-user {
+  position: absolute;
+  right: 16px;
+  top: -20px;
+  width: 40px;
+}
+
+.hyperlink {
+  color: blue !important;
+}
+
+
+@media screen and (max-width: 500px) {
+  .card-trip {
+    /* box-shadow: 0 0 15px rgba(0,0,0,0.2); */
+    min-width: 380px;
+    max-width: 380px;
+  }
+
+  .card-trip > img {
+    height: 450px;
+  }
+
+  .card-trip h2 {
+    font-size: 30px;
+    font-weight: bold;
+  }
+  
+  .card-trip-title {
+    font-size: 24px;
+    opacity: .7;
+    margin-top: 4px !important;
+  }
+
+  #card-trip-description {
+    font-size: 20px;
+  }
+
+  
+}
