@@ -108,3 +108,9 @@ body {
 	max-width: 70%;
 	margin: 0 auto;
   }
+
+ #portlinstall {
+	inherits: none;
+	max-width: 70%;
+	margin: 0 auto;
+  }

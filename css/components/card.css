@@ -35,6 +35,13 @@
   padding: 16px;
 }
 
+#portl {
+  max-width: 300px;
+  height: auto;
+  object-fit: contain;
+
+  }
+
 @media screen and (max-width: 660px) {
   .card-product {
     overflow: hidden;
