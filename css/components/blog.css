@@ -114,3 +114,8 @@ body {
 	max-width: 70%;
 	margin: 0 auto;
   }
+
+
+  #spbutton {
+	max-width: 50%;
+  }
