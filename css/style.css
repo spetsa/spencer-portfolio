@@ -22,12 +22,12 @@
 
 /* --- Fonts --- */
 body {
-  font-family: "lato";
+  font-family: "lato" !important;
   padding-bottom: 0px;
   background-color: rgb(236, 242, 248);
 }
 h1, h2, h3 {
-  font-family: "lato";
+  font-family: "lato" !important;
 }
 
 
