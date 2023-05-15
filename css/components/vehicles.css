@@ -1,0 +1,54 @@
+  
+#app {
+    width: 80%;
+    margin: auto;
+}
+
+.vehicle-card {
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.vehicle-card img {
+    width: 100%;
+    height: auto;
+}
+
+.swipe-left, .swipe-right {
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+.swipe-left {
+    background-color: #f44336;
+}
+
+.swipe-right {
+    background-color: #4CAF50;
+}
+
+.rating-popup {
+    display: none;
+    text-align: center;
+}
+
+.star-rating .star {
+    font-size: 40px;
+    color: #FFD700;
+    cursor: pointer;
+}
+
+.my-vehicle-section {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.my-vehicle-section h2 {
+    text-align: center;
+}
